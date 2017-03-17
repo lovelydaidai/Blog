@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub绑定域名</title>
+</head>
+<body>
+<h1>GitHub的分支是怎样绑定域名的？</h1>
+<p>2017.03.17</p>
+<p>关键词CNAME</p>
+<p>我发现，分支上的域名怎么都不能ping</p>
+<p>解决方法就是，在分支上建一个CNAME文件，写上你想绑定的域名，然后在阿里控制台解析域名，添加A记录为{username}.github.io的IP地址</p>
+<p>(这个是可以ping的)，然后访问，就行了。</p>
+</body>
+</html>
